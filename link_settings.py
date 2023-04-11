@@ -6,4 +6,5 @@ CONFIG_FILES = {
     './configs/vimrc': '~/.vimrc',
     './configs/my_configs.vim': '~/.vim_runtime/my_configs.vim',
     './configs/gitconfig': '~/.gitconfig',
+    './configs/ideavimrc': '~/.ideavimrc',
 }
