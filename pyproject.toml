@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "mac-configs"
+version = "0.1.0"
+description = ""
+authors = ["mitch <benq7879@gmail.com>"]
+readme = "README.md"
+packages = [{include = "mac_configs"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
