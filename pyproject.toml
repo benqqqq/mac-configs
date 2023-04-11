@@ -8,6 +8,7 @@ packages = [{include = "mac_configs"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+pytest = "^7.3.0"
 
 
 [build-system]
