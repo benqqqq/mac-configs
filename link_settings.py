@@ -7,4 +7,5 @@ CONFIG_FILES = {
     './configs/my_configs.vim': '~/.vim_runtime/my_configs.vim',
     './configs/gitconfig': '~/.gitconfig',
     './configs/ideavimrc': '~/.ideavimrc',
+    './configs/zprofile': '~/.zprofile',
 }
