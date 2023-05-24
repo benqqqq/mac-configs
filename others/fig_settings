@@ -1,0 +1,20 @@
+executed by running
+fig settings all
+
+```
+app.launchOnStartup = true
+autocomplete.alwaysSuggestCurrentToken = false
+autocomplete.disable = false
+autocomplete.firstTokenCompletion = true
+autocomplete.fuzzySearch = true
+autocomplete.height = 240
+autocomplete.immediatelyExecuteAfterSpace = false
+autocomplete.immediatelyRunGitAliases = true
+autocomplete.keybindings.enter = "insertSelected"
+autocomplete.keybindings.tab = "insertSelected"
+autocomplete.onlyShowOnTab = false
+autocomplete.sortMethod = "recency"
+autocomplete.theme = "apple-dark"
+autocomplete.width = 420
+```
+
