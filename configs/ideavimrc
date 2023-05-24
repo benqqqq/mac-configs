@@ -1,3 +1,4 @@
 set relativenumber
 set scrolloff=20
 set incsearch
+set hlsearch
