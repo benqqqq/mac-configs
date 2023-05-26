@@ -11,5 +11,9 @@ eval "$(pyenv init -)"
 # PyCharm command line tool (e.g. charm)
 export PATH=$PATH:/Applications/PyCharm.app/Contents/MacOS
 
+# GPG
+export GPG_TTY=$(tty)
+
+
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zprofile.post.zsh" ]] && builtin source "$HOME/.fig/shell/zprofile.post.zsh"

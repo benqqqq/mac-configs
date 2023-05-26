@@ -1,6 +1,10 @@
 [user]
 	name = mitchwu
 	email = benq7879@gmail.com
+	signingKey = 10F68079DE8B062B
+
+[gpg]
+    program = /opt/homebrew/bin/gpg
 
 [init]
     defaultBranch = main
@@ -22,3 +26,5 @@
 [diff]
     colorMoved = default
 
+[commit]
+    gpgsign = true
