@@ -1,8 +1,3 @@
-[user]
-	name = mitchwu
-	email = benq7879@gmail.com
-	signingKey = 10F68079DE8B062B
-
 [gpg]
     program = /opt/homebrew/bin/gpg
 
@@ -26,5 +21,11 @@
 [diff]
     colorMoved = default
 
-[commit]
-    gpgsign = true
+[includeIf "gitdir:~/Coding/Self/"]
+    path = ~/Coding/.gitconfig.personal
+
+[includeIf "gitdir:~/Coding/Reference_GitHub/"]
+    path = ~/Coding/.gitconfig.personal
+
+[includeIf "gitdir:~/Coding/Avl/"]
+    path = ~/Coding/.gitconfig.avl
