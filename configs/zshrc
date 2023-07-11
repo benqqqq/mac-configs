@@ -85,6 +85,7 @@ plugins=(
     fzf
     poetry
     pyenv
+    git-open
 )
 
 source $ZSH/oh-my-zsh.sh
